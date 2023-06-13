@@ -13,6 +13,9 @@
 !/log/.keep
 !/tmp/.keep
 
+#I don't want to show my credentials
+/config/credentials.yml.enc
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
