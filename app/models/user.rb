@@ -7,7 +7,7 @@ class User < ApplicationRecord
   validates_presence_of :name
 
   def first_name
-    self.name.split.first #split will chop the string to array
+      self.name.split.first #split will chop the string to array
   end
   
   def last_name
